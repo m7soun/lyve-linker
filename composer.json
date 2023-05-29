@@ -1,5 +1,5 @@
 {
-  "name": "lyve/linker",
+  "name": "m7soun/lyve-linker",
   "version": "1.0.0",
   "description": "A PHP package for connecting to MySQL",
   "license": "MIT",
@@ -11,7 +11,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "Lyve\\Linker\\": "src/"
+      "m7soun\\lyve-linker\\": "src/"
     },
     "files": [
       "resources/config/linker/v1/config.php"

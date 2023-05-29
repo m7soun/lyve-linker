@@ -1,0 +1,11 @@
+#!/usr/bin/env php
+<?php
+
+$commandExecutorPath = implode(DIRECTORY_SEPARATOR, [__DIR__, 'src', 'Commands', 'Executers', 'V1', 'command-executor.php']);
+
+// Get the command-line arguments
+$args = $_SERVER['argv'];
+array_shift($args); // Remove the script name from the arguments
+
+// Execute the linker script
+passthru("php {$commandExecutorPath} " . escapeshellarg(implode(' ', $args)));

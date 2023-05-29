@@ -1,0 +1,24 @@
+{
+  "name": "lyve/linker",
+  "version": "1.0.0",
+  "description": "A PHP package for connecting to MySQL",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Your Name",
+      "email": "your@email.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Lyve\\Linker\\": "src/"
+    },
+    "files": [
+      "resources/config/linker/v1/config.php"
+    ]
+  },
+  "bin": [
+    "linker.php"
+  ],
+  "require": {}
+}
